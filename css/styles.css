@@ -337,11 +337,11 @@ img {
     line-height: 1.19;
 }
 
-.adress-item {
+.address-item {
     box-sizing: border-box;
 }
 
-.adress-item:not(:last-child) {
+.address-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -349,13 +349,17 @@ img {
     margin-bottom: 20px;
 }
 
-.foot-adress .link{
+.footer-address {
+    font-style: normal;
+}
+
+.foot-address .link{
     color:var(--primary-white-color);
     text-decoration: none;
     list-style: none;
 }
 
-.foot-adress .link-info {
+.foot-address .link-info {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     list-style: none;
